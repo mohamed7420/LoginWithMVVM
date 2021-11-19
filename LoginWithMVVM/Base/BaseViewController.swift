@@ -1,19 +1,21 @@
 //
-//  ViewController.swift
+//  BaseViewController.swift
 //  LoginWithMVVM
 //
 //  Created by Mohamed osama on 19/11/2021.
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
-class ViewController: UIViewController {
+class BaseViewController: UIViewController {
 
+    let disposeBage = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
-
 }
-
